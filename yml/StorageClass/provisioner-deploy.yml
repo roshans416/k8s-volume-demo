@@ -30,11 +30,11 @@ spec:
             - name: PROVISIONER_NAME
               value: ff1.dev/nfs
             - name: NFS_SERVER
-              value: 192.168.2.30
+              value: 192.168.33.14
             - name: NFS_PATH
-              value: /ssd/dynamic
+              value: /nfsfileshare-sc
       volumes:
         - name: nfs-client-ssd
           nfs:
-            server: 192.168.2.30
-            path: /ssd/dynamic
+            server: 192.168.33.14
+            path: /nfsfileshare-sc
