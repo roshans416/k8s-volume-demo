@@ -37,4 +37,4 @@ spec:
         - name: nfs-client-ssd
           nfs:
             server: 192.168.33.14
-            path: /nfsfileshare-sc
+            path: /var/nfs
