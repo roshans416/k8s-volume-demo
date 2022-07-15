@@ -9,6 +9,6 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    path: /nfsfileshare
+    path: /var/nfs
     server: 192.168.33.14
 
