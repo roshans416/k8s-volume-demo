@@ -28,7 +28,7 @@ spec:
               mountPath: /persistentvolumes
           env:
             - name: PROVISIONER_NAME
-              value: ff1.dev/nfs
+              value: nfsprovisioner
             - name: NFS_SERVER
               value: 192.168.33.14
             - name: NFS_PATH
